@@ -25,6 +25,7 @@ public class ProductController {
 	@Autowired
 	private ProductService productService;
 	
+	
 
 	@GetMapping // 使用根路徑
 	public ResponseEntity<ApiResponse<List<Product>>> findAll() {
